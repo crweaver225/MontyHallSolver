@@ -43,8 +43,8 @@ main = do
     
     putStrLn $ "\nMonty Hall Simulation Results (" ++ show numTrials ++ " trials):"
     putStrLn "--------------------------------------------"
-    putStrLn $ "Always STAY strategy win rate:   " ++ show playerSwitchesWinPercentage ++ "%"
-    putStrLn $ "Always SWITCH strategy win rate: " ++ show playerStaysWinPercentage ++ "%"
+    putStrLn $ "Always SWITCH strategy win rate:   " ++ show playerSwitchesWinPercentage ++ "%"
+    putStrLn $ "Always STAY strategy win rate: " ++ show playerStaysWinPercentage ++ "%"
 
     putStrLn "\nSuggested best strategy: "
     if playerSwitchesWinPercentage > playerStaysWinPercentage
